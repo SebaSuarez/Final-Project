@@ -15,7 +15,7 @@ nav{
     width: 600px;
     background-color: rgb(106, 89, 255);
     margin-right: auto;
-    margin-left: auto;
+    margin-left: 445px;
 }
 nav a{
     text-decoration: none;
@@ -28,6 +28,7 @@ nav a{
     float: left;
     color: #000;
     padding-bottom: 10px;
+    
 }
 .clearfloat{
     clear: both;
