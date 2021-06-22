@@ -3,7 +3,7 @@ body{
     padding:0; 
 }
 header{
-    background-image: url("https://digital.ihg.com/is/image/ihg/hotel-indigo-santa-barbara-6706484551-4x3");
+    background-image: url('Img Folder\butter-flower.JPG')
     height: 500px;
     background-size: cover;
     color: rgb(106, 89, 255);
@@ -63,7 +63,7 @@ input[type=text], select, textarea {
   
   .container {
     border-radius: 5px;
-    background-color:darkcyan;
+    background-color:rgb(233, 169, 180);
     padding: 20px;
   }
   #confirmation-words{
@@ -140,7 +140,36 @@ input[type=text], select, textarea {
   }
   .about{
     font-size: 30px;
+    font-weight: bold;
   }
   .about-me{
+    float: left;
+    margin: 10px;
+    margin-top: 250px;
+    margin-left: 20px;
+  }
+  .about-center{
     text-align: center;
+  }
+  .img-left{
+    border: 2px solid pink;
+    margin: 5px 0px;
+  }
+  .img-right{
+    border: 2px solid pink;
+    float: right;
+    clear: right;
+    margin: 5px 0px;
+  }
+  img{
+    width: 400px;
+    height: 400px;
+  }
+  .about-img{
+    width: 200px;
+    height: 200px;
+  }
+  .left-m{
+    margin-left: 200px;
+    margin-top: 200px;
   }
