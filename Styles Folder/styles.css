@@ -125,7 +125,12 @@ input[type=text], select, textarea {
   .contact{
     margin-left: 10px;
     font-weight: bold;
+    text-align: center;
+    font-size: 130%;
   }
   .container{
     margin: 10px;
+  }
+  .contact-header{
+    font-size: 30px;
   }
