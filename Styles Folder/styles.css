@@ -3,7 +3,7 @@ body{
     padding:0; 
 }
 header{
-    background-image: url('../img-folder/flower.JPG');
+    background-image: url('../img-folder/flower.jpg');
     height: 500px;
     background-size: cover;
     color: rgb(106, 89, 255);
