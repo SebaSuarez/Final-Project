@@ -53,7 +53,7 @@ input[type=text], select, textarea {
   }
   
   input[type=submit] {
-    background-color: #04AA6D;
+    background-color: #ff00b3;
     color: white;
     padding: 12px 20px;
     border: none;
@@ -62,7 +62,7 @@ input[type=text], select, textarea {
   }
   
   input[type=submit]:hover {
-    background-color: #45a049;
+    background-color: #ff4fe8;
   }
   
   .container {
@@ -72,9 +72,10 @@ input[type=text], select, textarea {
   }
   #confirmation-words{
     font-size: 40px;
-    color:darkcyan;
+    color:rgb(219, 43, 196);
     margin: 30px;
     text-align: center;
+    font-weight: bold;
 }
 
 .footer{
@@ -199,5 +200,37 @@ input[type=text], select, textarea {
     margin-bottom: 40px;
   }
   .background{
+    background-image: url('../img-folder/grey-wood.jpg');
+  }
+  .imgr-1{
+    width: 400px;
+    height: 450px;
+  }
+  .imgr-2{
+    height: 350px;
+  }
+  .imgl-1{
+    height: 380px;
+  }
+  .return{
+    margin-left: 650px;
+    margin-right: 650px;
+    padding: 12px 20px;
+    background-color: #ff00b3;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 4px;
+    border: none;
+    color: white;
+  }
+  .return:hover{
+    background-color: #ff4fe8;
+    cursor: pointer;
+    border-radius: 4px;
+    border: none;
+    padding: 12px 20px;
+    color: white;
+  }
+  .con{
     background-image: url('../img-folder/grey-wood.jpg');
   }
