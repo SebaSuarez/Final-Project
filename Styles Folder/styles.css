@@ -1,12 +1,16 @@
 body{
-    margin: 0;
-    padding:0; 
+    margin: 0px;
+    padding:0px; 
+}
+*{
+    margin: 0px;
+    padding:0px; 
 }
 header{
     background-image: url('../img-folder/flower.jpg');
     height: 500px;
     background-size: cover;
-    color: rgb(106, 89, 255);
+    color: rgb(255, 255, 255);
     line-height: 500px;
     text-align: center;
     font-size: 30px;
@@ -174,9 +178,26 @@ input[type=text], select, textarea {
   .left-colom {
     width: 450px;
     float: left;
+    margin-left: 175px;
+    margin-right: 100px;
   }
   .right-colom img{
     width: 450px;
     float: right;
     margin-left: 300px;
+  }
+  .about-img-right{
+    float:right;
+    margin-top: 65px;
+    border: 2px solid pink;
+  }
+  .about-left{
+    float: left;
+    border: 2px solid pink;
+  }
+  .right-k{
+    margin-bottom: 40px;
+  }
+  .background{
+    background-image: url('../img-folder/grey-wood.jpg');
   }
