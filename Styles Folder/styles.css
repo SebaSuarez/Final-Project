@@ -3,7 +3,7 @@ body{
     padding:0; 
 }
 header{
-    background-image: url('Img Folder\butter-flower.JPG')
+    background-image: url('../img-folder/flower.JPG');
     height: 500px;
     background-size: cover;
     color: rgb(106, 89, 255);
@@ -157,8 +157,6 @@ input[type=text], select, textarea {
   }
   .img-right{
     border: 2px solid pink;
-    float: right;
-    clear: right;
     margin: 5px 0px;
   }
   img{
@@ -172,4 +170,13 @@ input[type=text], select, textarea {
   .left-m{
     margin-left: 200px;
     margin-top: 200px;
+  }
+  .left-colom{
+    width: 450px;
+    float: left;
+  }
+  .right-colom img{
+    width: 450px;
+    float: right;
+    margin-left: 300px;
   }
